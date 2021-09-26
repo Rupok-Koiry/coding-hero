@@ -4,6 +4,7 @@
 
 ### Features of coding hero
 
+- Coding hero website is created with react & bootstrap framework
 - This website is for the most prominent courses around the world
 - You will get courses such as web development, programing, seo, digital marketing and many more
 - You will get the lifetime access for the courses that you purchased
