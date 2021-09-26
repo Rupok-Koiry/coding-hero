@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "course_name": "Complete Web Development Course with Jhankar Mahbub",
+    "image": "./images/jhankar.png",
+    "category": "Web Development",
+    "course_creator": "Programing Hero",
+    "duration": 120,
+    "price": 99.99,
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "course_name": "The Complete JavaScript Course 2021: From Zero to Expert!",
+    "image": "./images/jonas.jpeg",
+    "category": "Programming",
+    "course_creator": "Jonas Schmedtmann",
+    "duration": 68,
+    "price": 89.99,
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "course_name": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+    "image": "./images/max.png",
+    "category": "Frontend Development",
+    "course_creator": "Maximilian Schwarzmüller",
+    "duration": 48,
+    "price": 75.99,
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "course_name": "The Ultimate SEO Training 2021 + SEO For Wordpress Websites",
+    "image": "./images/seo.jpg",
+    "category": "SEO & Marketing",
+    "course_creator": "Josh George",
+    "duration": 7.5,
+    "price": 65.99,
+    "rating": 3.8
+  },
+  {
+    "id": 5,
+    "course_name": "Become a WordPress Developer: Unlocking Power With Code",
+    "image": "./images/wordpress.jpg",
+    "category": "Wordpress",
+    "course_creator": "Brad Schiff",
+    "duration": 35.5,
+    "price": 85.99,
+    "rating": 4.4
+  },
+  {
+    "id": 6,
+    "course_name": "Node.js, Express, MongoDB & More: The Complete Bootcamp",
+    "image": "./images/node.jpg",
+    "category": "Backend Development",
+    "course_creator": "Jonas Schmedtmann",
+    "duration": 42,
+    "price": 58.99,
+    "rating": 4.5
+  },
+  {
+    "id": 7,
+    "course_name": "The Complete 2021 Web Development Bootcamp",
+    "image": "./images/angela.jpg",
+    "category": "Web Development",
+    "course_creator": "Dr. Angela Yu",
+    "duration": 55,
+    "price": 99.99,
+    "rating": 4.2
+  },
+  {
+    "id": 8,
+    "course_name": "The Complete Digital Marketing Course - 12 Courses in 1",
+    "image": "./images/digital.jpg",
+    "category": "Digital Marketing",
+    "course_creator": "Rob Percival",
+    "duration": 22.5,
+    "price": 78.99,
+    "rating": 3.8
+  },
+  {
+    "id": 9,
+    "course_name": "Next.js & React - The Complete Guide (incl. Two Paths!)",
+    "image": "./images/next.jpg",
+    "category": "Frontend Development",
+    "course_creator": "Maximilian Schwarzmüller",
+    "duration": 25,
+    "price": 45.99,
+    "rating": 3.2
+  },
+  {
+    "id": 10,
+    "course_name": "Master the Coding Interview: Data Structures + Algorithms",
+    "image": "./images/dataStructure.jpg",
+    "category": "Data Structures & Algorithms",
+    "course_creator": "Andrei Neagoie",
+    "duration": 19,
+    "price": 45.99,
+    "rating": 2
+  },
+  {
+    "id": 11,
+    "course_name": "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+    "image": "./images/machine.jpg",
+    "category": "Data Science",
+    "course_creator": "Kirill Eremenko",
+    "duration": 44,
+    "price": 75.99,
+    "rating": 4.4
+  },
+  {
+    "id": 12,
+    "course_name": "The Python Mega Course: Build 10 Real World Applications",
+    "image": "./images/python.jpg",
+    "category": "Programing",
+    "course_creator": "Ardit Sulce",
+    "duration": 33,
+    "price": 68.99,
+    "rating": 3.6
+  }
+]

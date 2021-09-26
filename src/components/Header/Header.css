@@ -1,0 +1,49 @@
+/* header css */
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header .search-btn {
+  background-color: #3aacf5;
+}
+.navbar-brand {
+  font-weight: 500;
+}
+.navbar-brand img {
+  margin-right: 5px;
+}
+.header a {
+  font-size: 1.15rem;
+  transition: all 0.2s ease;
+}
+
+.header a:hover {
+  color: #3aacf5 !important;
+}
+/* hero css */
+.hero {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.925);
+  padding: 5rem 0;
+}
+.hero h2 {
+  font-weight: 300;
+  font-size: 2.45rem;
+  color: rgb(0, 253, 253);
+}
+.hero h3 {
+  font-size: 1.875rem;
+}
+.hero p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+}
+@media screen and (max-width: 992px) {
+  .hero p {
+    font-size: 15px;
+  }
+}
