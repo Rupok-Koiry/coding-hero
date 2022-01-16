@@ -9,9 +9,21 @@ import Cart from "./components/Cart/Cart";
 function App() {
   const [cart, setCart] = useState([]);
   const getCartItem = (item) => {
-    setCart((prevState) => {
-      return [...prevState, item];
-    });
+    const isItemAlreadyExists = cart.find((crt) => crt.id === item.id);
+    if (isItemAlreadyExists) {
+      item.quantity += 1;
+      setCart((prevState) => {
+        return [...prevState];
+      });
+    } else {
+      item.quantity = 1;
+      setCart((prevState) => {
+        return [...prevState, item];
+      });
+    }
+  };
+  const removeCartItem = (id) => {
+    setCart(cart.filter((crt) => crt.id !== id));
   };
   return (
     <>
@@ -23,7 +35,7 @@ function App() {
               <Courses getCartItem={getCartItem} />
             </div>
             <div className="col-xxl-3">
-              <Cart cart={cart} />
+              <Cart cart={cart} onRemove={removeCartItem} />
             </div>
           </div>
         </div>
